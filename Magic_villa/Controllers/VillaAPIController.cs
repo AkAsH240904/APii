@@ -24,7 +24,7 @@ namespace Magic_villa.Controllers
             var villa = Villastore.villaList.FirstOrDefault(u => u.Id == id);
             if (villa == null)
             {
-                return NotFound();
+                return NotFound();//akash
             }
             return Ok(villa);
         }
